@@ -1,0 +1,28 @@
+.button {
+    border-radius: 30px;
+    height: 24px;
+    width: 28px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+}
+
+.button.hover{
+    opacity: 0.8;
+}
+
+.button.active {
+    background-color: cornflowerblue;
+    color: #fff;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+}

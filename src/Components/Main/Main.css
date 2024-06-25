@@ -1,0 +1,8 @@
+.toDoList {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    color: rgba(232, 201, 142, 1);
+}
